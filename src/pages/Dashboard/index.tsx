@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { isToday, format, parseISO, isAfter } from 'date-fns';
 import ptBr from 'date-fns/locale/pt-BR';
@@ -40,6 +41,8 @@ interface Appointment {
 
 const Dashboard: React.FC = () => {
   const { user, signOut } = useAuth();
+
+  // console.log(user.avatar_url);
 
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [currentMonth, setCurrentMonth] = useState(new Date());

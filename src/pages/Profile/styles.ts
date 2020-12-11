@@ -28,7 +28,7 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: -100px auto 0;
+  margin: -160px auto 0;
 
   width: 100%;
 
@@ -59,7 +59,7 @@ export const Content = styled.div`
 `;
 
 export const AvatarInput = styled.div`
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   position: relative;
   align-self: center;
 
